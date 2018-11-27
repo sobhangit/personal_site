@@ -1,0 +1,49 @@
+/* 
+
+	Version:1.0.0;
+
+ */
+.admin-author-form,
+.author-preview {
+	float: right;
+	display: inline-block;
+}
+
+.admin-author-form h3:first-of-type{
+	margin-top: 0;
+}
+
+.author-preview {
+	width: 280px;
+	margin-left: 20px;
+	padding: 20px;
+	background-color: #696969;
+}
+
+.author-preview .fullname,
+.author-preview .description,
+.author-preview .profile-image {
+	font-family: 'B Nazanin';
+	text-align: center;
+	color: #fff;
+}
+
+.profile-image {
+	margin: 0 auto;
+	background-color: gray;
+	border-radius: 50%;
+	width: 200px;
+	max-width: auto;
+	height: 200px;
+	max-height: auto;
+}
+
+.profile-image img {
+	border-radius: 50%;
+	max-width: 200px;
+}
+
+.author-preview .description {
+	text-align: justify;
+}
+
